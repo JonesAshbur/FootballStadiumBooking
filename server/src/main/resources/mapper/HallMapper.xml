@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zkw.programmer.dao.HallMapper">
+  <resultMap id="BaseResultMap" type="com.zkw.programmer.domain.Hall">
+    <id column="id" jdbcType="CHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="location" jdbcType="VARCHAR" property="location" />
+    <result column="fee" jdbcType="DECIMAL" property="fee" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="info" jdbcType="VARCHAR" property="info" />
+    <result column="photo" jdbcType="VARCHAR" property="photo" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, `name`, `location`, fee, `state`, info, photo
+  </sql>
+  <select id="selectByExample" parameterType="com.zkw.programmer.domain.HallExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from hall
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from hall
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from hall
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.zkw.programmer.domain.HallExample">
+    delete from hall
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zkw.programmer.domain.Hall">
+    insert into hall (id, `name`, `location`,
+      fee, `state`, info, photo
+      )
+    values (#{id,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{location,jdbcType=VARCHAR},
+      #{fee,jdbcType=DECIMAL}, #{state,jdbcType=INTEGER}, #{info,jdbcType=VARCHAR}, #{photo,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.zkw.programmer.domain.Hall">
+    insert into hall
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        `name`,
+      </if>
+      <if test="location != null">
+        `location`,
+      </if>
+      <if test="fee != null">
+        fee,
+      </if>
+      <if test="state != null">
+        `state`,
+      </if>
+      <if test="info != null">
+        info,
+      </if>
+      <if test="photo != null">
+        photo,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="location != null">
+        #{location,jdbcType=VARCHAR},
+      </if>
+      <if test="fee != null">
+        #{fee,jdbcType=DECIMAL},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="info != null">
+        #{info,jdbcType=VARCHAR},
+      </if>
+      <if test="photo != null">
+        #{photo,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zkw.programmer.domain.HallExample" resultType="java.lang.Integer">
+    select count(*) from hall
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update hall
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=CHAR},
+      </if>
+      <if test="record.name != null">
+        `name` = #{record.name,jdbcType=VARCHAR},
+      </if>
+      <if test="record.location != null">
+        `location` = #{record.location,jdbcType=VARCHAR},
+      </if>
+      <if test="record.fee != null">
+        fee = #{record.fee,jdbcType=DECIMAL},
+      </if>
+      <if test="record.state != null">
+        `state` = #{record.state,jdbcType=INTEGER},
+      </if>
+      <if test="record.info != null">
+        info = #{record.info,jdbcType=VARCHAR},
+      </if>
+      <if test="record.photo != null">
+        photo = #{record.photo,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update hall
+    set id = #{record.id,jdbcType=CHAR},
+      `name` = #{record.name,jdbcType=VARCHAR},
+      `location` = #{record.location,jdbcType=VARCHAR},
+      fee = #{record.fee,jdbcType=DECIMAL},
+      `state` = #{record.state,jdbcType=INTEGER},
+      info = #{record.info,jdbcType=VARCHAR},
+      photo = #{record.photo,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zkw.programmer.domain.Hall">
+    update hall
+    <set>
+      <if test="name != null">
+        `name` = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="location != null">
+        `location` = #{location,jdbcType=VARCHAR},
+      </if>
+      <if test="fee != null">
+        fee = #{fee,jdbcType=DECIMAL},
+      </if>
+      <if test="state != null">
+        `state` = #{state,jdbcType=INTEGER},
+      </if>
+      <if test="info != null">
+        info = #{info,jdbcType=VARCHAR},
+      </if>
+      <if test="photo != null">
+        photo = #{photo,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zkw.programmer.domain.Hall">
+    update hall
+    set `name` = #{name,jdbcType=VARCHAR},
+      `location` = #{location,jdbcType=VARCHAR},
+      fee = #{fee,jdbcType=DECIMAL},
+      `state` = #{state,jdbcType=INTEGER},
+      info = #{info,jdbcType=VARCHAR},
+      photo = #{photo,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>

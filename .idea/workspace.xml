@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3586a1f6-7504-4018-bcf7-c844ac6274b6" name="Default Changelist" comment="Default Changelist" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SportHallBookingSystem" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/admin" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2TgVYKnBiLAcuh3fjWUV3wEMg8y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.generator.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FootballStadiumBookingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SportHallBookingApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SportHallBookingApplication .executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SportHallBookingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/FootballStadiumReservationManagementSystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.web.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32528734&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IntelliJ IDEA 2024.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_project\SportHallBookingSystem\server\src\main\java\com\yjq\programmer\service\impl" />
+      <recent name="D:\idea_project\SportHallBookingSystem\admin\src\views\user" />
+      <recent name="D:\idea_project\SportHallBookingSystem\admin\src\components" />
+      <recent name="D:\idea_project\SportHallBookingSystem\admin\public" />
+      <recent name="D:\idea_project\SportHallBookingSystem\server\src\main\java\com\yjq\programmer\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SportHallBookingSystem\admin\public" />
+      <recent name="D:\idea_project\SportHallBookingSystem\admin\src\views" />
+      <recent name="D:\idea_project\SportHallBookingSystem\admin\src\views\system" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yjq.programmer.aspect" />
+      <recent name="com.yjq.programmer.interceptor" />
+      <recent name="com.yjq.programmer.constant" />
+      <recent name="com.yjq.programmer.config" />
+      <recent name="com.yjq.programmer.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.web">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="server" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="FootballStadiumBookingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkw.programmer.FootballStadiumBookingApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zkw.programmer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="web" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.generator" />
+      <item itemvalue="npm.web" />
+      <item itemvalue="Spring Boot.FootballStadiumBookingApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.web" />
+        <item itemvalue="Spring Boot.FootballStadiumBookingApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3586a1f6-7504-4018-bcf7-c844ac6274b6" name="Default Changelist" comment="" />
+      <created>1691464756795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691464756795</updated>
+      <workItem from="1691464758266" duration="365000" />
+      <workItem from="1691725328422" duration="6128000" />
+      <workItem from="1691801716911" duration="13724000" />
+      <workItem from="1691933179176" duration="266000" />
+      <workItem from="1692322762137" duration="1562000" />
+      <workItem from="1692336723497" duration="1325000" />
+      <workItem from="1692497070015" duration="27063000" />
+      <workItem from="1692665229216" duration="26142000" />
+      <workItem from="1692782249696" duration="17000" />
+      <workItem from="1692837976846" duration="2003000" />
+      <workItem from="1692840730139" duration="8855000" />
+      <workItem from="1692867264779" duration="12252000" />
+      <workItem from="1693010996390" duration="365000" />
+      <workItem from="1693011396603" duration="14801000" />
+      <workItem from="1693185384963" duration="23184000" />
+      <workItem from="1693357332804" duration="2010000" />
+      <workItem from="1693377643022" duration="610000" />
+      <workItem from="1693383076245" duration="9897000" />
+      <workItem from="1693460569775" duration="4091000" />
+      <workItem from="1693468451261" duration="2856000" />
+      <workItem from="1693475986436" duration="3871000" />
+      <workItem from="1693540295924" duration="14000" />
+      <workItem from="1693625044482" duration="7597000" />
+      <workItem from="1693703883145" duration="3882000" />
+      <workItem from="1705064242857" duration="20227000" />
+      <workItem from="1740057991431" duration="793000" />
+      <workItem from="1740059595712" duration="212000" />
+      <workItem from="1740059812769" duration="1424000" />
+      <workItem from="1740186351371" duration="1309000" />
+      <workItem from="1740189467913" duration="68000" />
+      <workItem from="1740191893155" duration="2000" />
+      <workItem from="1740212878516" duration="12752000" />
+      <workItem from="1740231400867" duration="65000" />
+      <workItem from="1740231482060" duration="2451000" />
+      <workItem from="1740233954107" duration="22000" />
+      <workItem from="1740234000087" duration="1144000" />
+      <workItem from="1740235151781" duration="12000" />
+      <workItem from="1740235171287" duration="38000" />
+      <workItem from="1740235225973" duration="34000" />
+      <workItem from="1740235320172" duration="4000" />
+      <workItem from="1740235332529" duration="26000" />
+      <workItem from="1740235435685" duration="10000" />
+      <workItem from="1740235449044" duration="53000" />
+      <workItem from="1740235503441" duration="70000" />
+      <workItem from="1740235580896" duration="493000" />
+      <workItem from="1740236088450" duration="20000" />
+      <workItem from="1740236136100" duration="95000" />
+      <workItem from="1740236246486" duration="276000" />
+      <workItem from="1740236559029" duration="1002000" />
+      <workItem from="1740237581334" duration="513000" />
+      <workItem from="1740238122432" duration="360000" />
+      <workItem from="1740238491540" duration="191000" />
+      <workItem from="1740238686250" duration="88000" />
+      <workItem from="1740239132283" duration="340000" />
+      <workItem from="1740274895047" duration="917000" />
+      <workItem from="1740277651167" duration="347000" />
+      <workItem from="1740282657991" duration="229000" />
+      <workItem from="1740302708294" duration="10268000" />
+      <workItem from="1740317519678" duration="484000" />
+      <workItem from="1740364200150" duration="986000" />
+      <workItem from="1740453832170" duration="214000" />
+      <workItem from="1740454091872" duration="1131000" />
+      <workItem from="1740455866323" duration="234000" />
+      <workItem from="1740456109532" duration="27000" />
+      <workItem from="1740456170267" duration="34000" />
+      <workItem from="1740456211733" duration="293000" />
+      <workItem from="1740456550615" duration="1102000" />
+      <workItem from="1740458082341" duration="921000" />
+      <workItem from="1740459443310" duration="714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/admin" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zkw.programmer.dao.my.MyRentalMapper">
+
+    <select id="getRentalTotalByDate" resultType="java.lang.Integer">
+        select count(*) as total from rental where create_time > date_sub(curdate(), interval #{queryMap.start} day) and create_time &lt; date_sub(curdate(), interval #{queryMap.end} day)
+        <if test="queryMap.userId != null and queryMap.userId != ''">
+            and user_id = #{queryMap.userId}
+        </if>
+    </select>
+
+</mapper>
